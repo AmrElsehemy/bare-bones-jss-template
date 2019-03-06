@@ -1,7 +1,10 @@
 {
-  "name": "bare-bones-jss-app",
+  "name": "bare-bones-jss-template",
   "version": "0.1.0",
   "private": true,
+  "config": {
+    "appName": "bare-bones-jss-template"
+  },
   "dependencies": {
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
@@ -25,6 +28,7 @@
   ],
   "devDependencies": {
     "html-loader": "~0.5.5",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.2.3",
+    "@sitecore-jss/sitecore-jss-cli": "^11.0.2"
   }
 }
